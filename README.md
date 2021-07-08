@@ -20,3 +20,11 @@ $ .\.venv\Scripts\Activate
 (.venv) $ poetry install
 (.venv) $ python -m app
 ```
+
+## Environment Variables
+For local development and testing, make a copy of the file `local.env` to 
+`.env` and adapt it for your needs. The environment variables will be read from
+it.
+```bash
+$ cp local.env .env
+```
