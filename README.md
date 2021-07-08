@@ -9,14 +9,14 @@ Build a virtual environment, install the project dependencies and then run it:
 ```bash
 $ python -m venv .venv
 $ source .venv/bin/activate
-$ poetry install
-$ python -m app
+(.venv) $ poetry install
+(.venv) $ python -m app
 ```
 
 ### Windows
 ```bash
 $ python -m venv .venv
-$ .\\.venv\\Scripts\\Activateactivate
-$ poetry install
-$ python -m app
+$ .\.venv\Scripts\Activate
+(.venv) $ poetry install
+(.venv) $ python -m app
 ```
